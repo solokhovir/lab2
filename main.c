@@ -10,6 +10,6 @@ int main(int argc, char **argv)
 	printf("length = %d\n", strlen(name));
 	name[strlen(name) - 1] = '\0';
 
-	printf("Hello %s!\n", name);
+	printf("Hello, %s!\n", name);
 	return 0;
 }
